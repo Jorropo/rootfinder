@@ -10,7 +10,7 @@ I don't know if scaleway allows bruteforcing keys using their machines, you migh
 
 ## How to use it
 
-You will need the [scaleway CLI](https://yggdrasil-network.github.io/) settupped.
+You will need the [scaleway CLI](https://github.com/scaleway/scaleway-cli) settupped.
 
 1. Start `go run record.go` (this will collect run logs) on a machine reachable from yggdrasil.
 2. Edit peering and IPs inside [`bootscript.sh`](./bootscript.sh).
